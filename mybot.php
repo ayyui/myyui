@@ -18,10 +18,17 @@ if (!is_null($events['events'])) {
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'สวัสดีครัชช'
+					'text' => 'สวัสดีคะ'
 				];
 			}
 			else if($text == 'test'){
+				// Build message to reply back
+				$messages = [
+					'type' => 'text',
+					'text' => 'ทดสอบๆ'
+				];
+			}
+			else if($text == 'ced'){
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
